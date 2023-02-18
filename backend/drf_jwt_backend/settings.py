@@ -31,8 +31,7 @@ INSTALLED_APPS = [
     'corsheaders',
     # local apps
     'cars.apps.CarsConfig',  # This app is for example use only
-    'images.apps.ImagesConfig',  # This app is for example use only
-    'products.apps.ProductsConfig'  # This app is for example use only
+    'products'  # This app is for example use only
 ]
 
 MIDDLEWARE = [
